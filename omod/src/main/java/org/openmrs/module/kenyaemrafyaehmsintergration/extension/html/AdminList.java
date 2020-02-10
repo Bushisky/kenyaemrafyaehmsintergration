@@ -17,7 +17,8 @@ import org.openmrs.module.web.extension.AdministrationSectionExt;
 
 /**
  * This class defines the links that will appear on the administration page under the
- * "kenyaemrafyaehmsintergration.title" heading. This extension is enabled by defining (uncommenting) it in the config.xml file.
+ * "kenyaemrafyaehmsintergration.title" heading. This extension is enabled by defining
+ * (uncommenting) it in the config.xml file.
  */
 public class AdminList extends AdministrationSectionExt {
 	
@@ -42,7 +43,8 @@ public class AdminList extends AdministrationSectionExt {
 		
 		Map<String, String> map = new HashMap<String, String>();
 		
-		map.put("module/kenyaemrafyaehmsintergration/kenyaemrafyaehmsintergration.form", "kenyaemrafyaehmsintergration.title");
+		map.put("module/kenyaemrafyaehmsintergration/kenyaemrafyaehmsintergration.form",
+		    "kenyaemrafyaehmsintergration.title");
 		
 		return map;
 	}

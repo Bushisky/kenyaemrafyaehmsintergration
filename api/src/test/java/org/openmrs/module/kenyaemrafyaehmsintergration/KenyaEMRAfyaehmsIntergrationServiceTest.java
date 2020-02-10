@@ -24,8 +24,9 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * This is a unit test, which verifies logic in KenyaEMRAfyaehmsIntergrationService. It doesn't extend
- * BaseModuleContextSensitiveTest, thus it is run without the in-memory DB and Spring context.
+ * This is a unit test, which verifies logic in KenyaEMRAfyaehmsIntergrationService. It doesn't
+ * extend BaseModuleContextSensitiveTest, thus it is run without the in-memory DB and Spring
+ * context.
  */
 public class KenyaEMRAfyaehmsIntergrationServiceTest {
 	
