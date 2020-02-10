@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5398eb7-a85d-4dab-b193-161c52508cf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/files/atomfeed_settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_child.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_parent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/main/resources/files" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -62,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580889627251</updated>
       <workItem from="1580889630560" duration="1397000" />
+      <workItem from="1580983757518" duration="690000" />
     </task>
     <servers />
   </component>

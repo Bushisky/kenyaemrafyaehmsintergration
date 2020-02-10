@@ -1,0 +1,324 @@
+{
+  "general" : {
+    "parentFeedLocation" : "http://localhost:8095/openmrs",
+    "localFeedLocation" : "http://localhost:8096/openmrs",
+    "localInstanceId" : "facility1",
+    "persistSuccessAudit" : true,
+    "persistFailureAudit" : true,
+    "clients" : { }
+  },
+  "push" : {
+    "enabled" : false,
+    "schedule" : 43200,
+    "classes" : [ {
+      "classTitle" : "Location",
+      "category" : "location",
+      "openMrsClass" : "org.openmrs.Location",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Concept",
+      "category" : "concept",
+      "openMrsClass" : "org.openmrs.Concept",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Cohort",
+      "category" : "cohort",
+      "openMrsClass" : "org.openmrs.Cohort",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Visit Type",
+      "category" : "visittype",
+      "openMrsClass" : "org.openmrs.VisitType",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Person",
+      "category" : "person",
+      "openMrsClass" : "org.openmrs.Person",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Provider",
+      "category" : "provider",
+      "openMrsClass" : "org.openmrs.Provider",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "User",
+      "category" : "user",
+      "openMrsClass" : "org.openmrs.User",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Patient",
+      "category" : "patient",
+      "openMrsClass" : "org.openmrs.Patient",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PersonAddress",
+      "category" : "person_address",
+      "openMrsClass" : "org.openmrs.PersonAddress",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PersonName",
+      "category" : "person_name",
+      "openMrsClass" : "org.openmrs.PersonName",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PatientIdentifier",
+      "category" : "patient_identifier",
+      "openMrsClass" : "org.openmrs.PatientIdentifier",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Relationship",
+      "category" : "relationship",
+      "openMrsClass" : "org.openmrs.Relationship",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Drug",
+      "category" : "drug",
+      "openMrsClass" : "org.openmrs.Drug",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Allergy",
+      "category" : "allergy",
+      "openMrsClass" : "org.openmrs.Allergy",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Form",
+      "category" : "form",
+      "openMrsClass" : "org.openmrs.Form",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Order",
+      "category" : "order",
+      "openMrsClass" : "org.openmrs.Order",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "DrugOrder",
+      "category" : "drug_order",
+      "openMrsClass" : "org.openmrs.DrugOrder",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "TestOrder",
+      "category" : "test_order",
+      "openMrsClass" : "org.openmrs.TestOrder",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Visit",
+      "category" : "visit",
+      "openMrsClass" : "org.openmrs.Visit",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Encounter",
+      "category" : "encounter",
+      "openMrsClass" : "org.openmrs.Encounter",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Observation",
+      "category" : "observation",
+      "openMrsClass" : "org.openmrs.Obs",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Program",
+      "category" : "program",
+      "openMrsClass" : "org.openmrs.Program",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Program Enrollment",
+      "category" : "programenrollment",
+      "openMrsClass" : "org.openmrs.PatientProgram",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Privilege",
+      "category" : "privilege",
+      "openMrsClass" : "org.openmrs.Privilege",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "AuditMessage",
+      "category" : "audit_message",
+      "openMrsClass" : "org.openmrs.module.sync2.api.model.audit.AuditMessage",
+      "enabled" : true,
+      "preferredClient" : null
+    } ]
+  },
+  "pull" : {
+    "enabled" : false,
+    "schedule" : 43200,
+    "classes" : [ {
+      "classTitle" : "Location",
+      "category" : "location",
+      "openMrsClass" : "org.openmrs.Location",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Concept",
+      "category" : "concept",
+      "openMrsClass" : "org.openmrs.Concept",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Cohort",
+      "category" : "cohort",
+      "openMrsClass" : "org.openmrs.Cohort",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Visit Type",
+      "category" : "visittype",
+      "openMrsClass" : "org.openmrs.VisitType",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Person",
+      "category" : "person",
+      "openMrsClass" : "org.openmrs.Person",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Provider",
+      "category" : "provider",
+      "openMrsClass" : "org.openmrs.Provider",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "User",
+      "category" : "user",
+      "openMrsClass" : "org.openmrs.User",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Patient",
+      "category" : "patient",
+      "openMrsClass" : "org.openmrs.Patient",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PersonAddress",
+      "category" : "person_address",
+      "openMrsClass" : "org.openmrs.PersonAddress",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PersonName",
+      "category" : "person_name",
+      "openMrsClass" : "org.openmrs.PersonName",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "PatientIdentifier",
+      "category" : "patient_identifier",
+      "openMrsClass" : "org.openmrs.PatientIdentifier",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Relationship",
+      "category" : "relationship",
+      "openMrsClass" : "org.openmrs.Relationship",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Drug",
+      "category" : "drug",
+      "openMrsClass" : "org.openmrs.Drug",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Allergy",
+      "category" : "allergy",
+      "openMrsClass" : "org.openmrs.Allergy",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Form",
+      "category" : "form",
+      "openMrsClass" : "org.openmrs.Form",
+      "enabled" : true,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Order",
+      "category" : "order",
+      "openMrsClass" : "org.openmrs.Order",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "DrugOrder",
+      "category" : "drug_order",
+      "openMrsClass" : "org.openmrs.DrugOrder",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "TestOrder",
+      "category" : "test_order",
+      "openMrsClass" : "org.openmrs.TestOrder",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Visit",
+      "category" : "visit",
+      "openMrsClass" : "org.openmrs.Visit",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Encounter",
+      "category" : "encounter",
+      "openMrsClass" : "org.openmrs.Encounter",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Observation",
+      "category" : "observation",
+      "openMrsClass" : "org.openmrs.Obs",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Program",
+      "category" : "program",
+      "openMrsClass" : "org.openmrs.Program",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Program Enrollment",
+      "category" : "programenrollment",
+      "openMrsClass" : "org.openmrs.PatientProgram",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "Privilege",
+      "category" : "privilege",
+      "openMrsClass" : "org.openmrs.Privilege",
+      "enabled" : false,
+      "preferredClient" : null
+    }, {
+      "classTitle" : "AuditMessage",
+      "category" : "audit_message",
+      "openMrsClass" : "org.openmrs.module.sync2.api.model.audit.AuditMessage",
+      "enabled" : false,
+      "preferredClient" : null
+    } ]
+  },
+  "whitelist" : {
+    "enabled" : false,
+    "instanceIds" : [ ]
+  }
+}
