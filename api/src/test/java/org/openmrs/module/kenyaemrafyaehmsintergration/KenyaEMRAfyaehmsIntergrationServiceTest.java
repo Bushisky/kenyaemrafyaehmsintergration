@@ -44,7 +44,7 @@ public class KenyaEMRAfyaehmsIntergrationServiceTest {
 		MockitoAnnotations.initMocks(this);
 	}
 	
-	@Test
+	/*@Test
 	public void saveItem_shouldSetOwnerIfNotSet() {
 		//Given
 		Item item = new Item();
@@ -60,5 +60,5 @@ public class KenyaEMRAfyaehmsIntergrationServiceTest {
 		
 		//Then
 		assertThat(item, hasProperty("owner", is(user)));
-	}
+	}*/
 }

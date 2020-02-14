@@ -54,6 +54,17 @@
 	</pluginRepositories>
 
     <properties>
-        <openmrsPlatformVersion>1.9.10</openmrsPlatformVersion>
+        <openmrsPlatformVersion>1.9.8</openmrsPlatformVersion>
+		<idgenVersion>2.7</idgenVersion>
     </properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>idgen-api</artifactId>
+				<version>${idgenVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>

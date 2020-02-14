@@ -9,15 +9,9 @@
  */
 package org.openmrs.module.kenyaemrafyaehmsintergration.api.dao;
 
-import org.junit.Test;
-import org.junit.Ignore;
 import org.openmrs.api.UserService;
-import org.openmrs.api.context.Context;
-import org.openmrs.module.kenyaemrafyaehmsintergration.Item;
 import org.openmrs.test.BaseModuleContextSensitiveTest;
 import org.springframework.beans.factory.annotation.Autowired;
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
 
 /**
  * It is an integration test (extends BaseModuleContextSensitiveTest), which verifies DAO methods
@@ -33,7 +27,7 @@ public class KenyaEMRAfyaehmsIntergrationDaoTest extends BaseModuleContextSensit
 	@Autowired
 	UserService userService;
 	
-	@Test
+	/*@Test
 	@Ignore("Unignore if you want to make the Item class persistable, see also Item and liquibase.xml")
 	public void saveItem_shouldSaveAllPropertiesInDb() {
 		//Given
@@ -54,5 +48,5 @@ public class KenyaEMRAfyaehmsIntergrationDaoTest extends BaseModuleContextSensit
 		assertThat(savedItem, hasProperty("uuid", is(item.getUuid())));
 		assertThat(savedItem, hasProperty("owner", is(item.getOwner())));
 		assertThat(savedItem, hasProperty("description", is(item.getDescription())));
-	}
+	}*/
 }

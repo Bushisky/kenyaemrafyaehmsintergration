@@ -28,7 +28,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="kenyaemrafyaehmsintergration-api" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.web:openmrs-web:1.9.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.web:openmrs-web:1.9.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jsp-api:2.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jstl:1.1.2" level="project" />
@@ -67,8 +67,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.struts:struts-core:1.3.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.struts:struts-taglib:1.3.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.struts:struts-tiles:1.3.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.web:openmrs-web:tests:1.9.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.api:openmrs-api:1.9.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.web:openmrs-web:tests:1.9.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.openmrs.api:openmrs-api:1.9.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-collections:commons-collections:3.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.azeckoski:reflectutils:0.9.14" level="project" />
@@ -119,7 +119,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: xml-resolver:xml-resolver:1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.openmrs.api:openmrs-api:tests:1.9.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.openmrs.api:openmrs-api:tests:1.9.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.0.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.2.135" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.databene:databene-benerator:0.5.9" level="project" />

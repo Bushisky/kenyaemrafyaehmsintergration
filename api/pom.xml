@@ -11,4 +11,24 @@
 	<packaging>jar</packaging>
 	<name>KenyaEMR Afyaehms Intergration API</name>
 	<description>API project for KenyaEMR Afyaehms Intergration</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openmrs.api</groupId>
+			<artifactId>openmrs-api</artifactId>
+			<type>jar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>org.openmrs.web</groupId>
+			<artifactId>openmrs-web</artifactId>
+			<type>jar</type>
+		</dependency>
+		<!--Start of other module dependancies-->
+		<dependency>
+			<groupId>org.openmrs.module</groupId>
+			<artifactId>idgen-api</artifactId>
+		</dependency>
+
+	</dependencies>
 </project>
