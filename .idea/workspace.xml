@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5398eb7-a85d-4dab-b193-161c52508cf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_api_openmrs_api_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_api_openmrs_api_tests_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_web_openmrs_web_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openmrs_web_openmrs_web_tests_1_9_10.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/kenyaemrafyaehmsintergration-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/kenyaemrafyaehmsintergration-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/KenyaEMRAfyaehmsIntergrationActivator.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/KenyaEMRAfyaehmsIntergrationActivator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/KenyaEMRAfyaehmsIntergrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/KenyaEMRAfyaehmsIntergrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/dao/KenyaEMRAfyaehmsIntergrationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/dao/KenyaEMRAfyaehmsIntergrationDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/impl/KenyaEMRAfyaehmsIntergrationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/impl/KenyaEMRAfyaehmsIntergrationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_child.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_child.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_parent.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/files/sync2_settings_parent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyaemrafyaehmsintergration/KenyaEMRAfyaehmsIntergrationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyaemrafyaehmsintergration/KenyaEMRAfyaehmsIntergrationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyaemrafyaehmsintergration/dao/KenyaEMRAfyaehmsIntergrationDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/org/openmrs/module/kenyaemrafyaehmsintergration/api/dao/KenyaEMRAfyaehmsIntergrationDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kenyaemrafyaehmsintergration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kenyaemrafyaehmsintergration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/kenyaemrafyaehmsintergration-omod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/kenyaemrafyaehmsintergration-omod.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omod/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/omod/src/main/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +72,7 @@
       <workItem from="1580889630560" duration="1397000" />
       <workItem from="1580983757518" duration="690000" />
       <workItem from="1581319195906" duration="8604000" />
-      <workItem from="1581663837843" duration="4308000" />
+      <workItem from="1581663837843" duration="6847000" />
     </task>
     <servers />
   </component>
