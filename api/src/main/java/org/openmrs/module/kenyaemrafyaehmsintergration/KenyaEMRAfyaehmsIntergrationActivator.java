@@ -229,7 +229,7 @@ public class KenyaEMRAfyaehmsIntergrationActivator extends BaseModuleActivator {
 	 * Generate an OpenMRS ID for patients who do not have one due to a migration from an old
 	 * OpenMRS ID to a new one which contains a check-digit
 	 **/
-	private void generateOpenMRSIdentifierForPatientsWithout() {
+	protected void generateOpenMRSIdentifierForPatientsWithout() {
 		PatientService patientService = Context.getPatientService();
 		AdministrationService as = Context.getAdministrationService();
 		
