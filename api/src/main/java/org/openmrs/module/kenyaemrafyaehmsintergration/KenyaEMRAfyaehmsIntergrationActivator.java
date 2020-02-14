@@ -40,7 +40,7 @@ public class KenyaEMRAfyaehmsIntergrationActivator extends BaseModuleActivator {
 	 */
 	public void started() {
 		//save the identifiers to the respective DB
-		//getIdentifierMetadataForApplication();
+		getIdentifierMetadataForApplication();
 		//Load person attribute types
 		//getPersonAttributesMetadata();
 		// generate OpenMRS ID for patients without the identifier
@@ -70,14 +70,18 @@ public class KenyaEMRAfyaehmsIntergrationActivator extends BaseModuleActivator {
 		PatientIdentifierType hivUniqueNumber = Metadata
 		        .getPatientIdentifierType(HarmonizedMetadataConstants._PatientIdentifierType.HIV_UNIQUE_PATIENT_NUMBER);
 		
-		if (nationalId == null) {
+		PatientIdentifierType universalId = Metadata
+		        .getPatientIdentifierType(HarmonizedMetadataConstants._PatientIdentifierType.UNIVERSAL_ID);
+		
+		if (universalId == null) {
 			PatientIdentifierType patientIdentifierType = new PatientIdentifierType();
-			patientIdentifierType.setName("National Id");
-			patientIdentifierType.setUuid(HarmonizedMetadataConstants._PatientIdentifierType.NATIONAL_ID);
+			patientIdentifierType.setName("Universal Identifier");
+			patientIdentifierType.setUuid(HarmonizedMetadataConstants._PatientIdentifierType.UNIVERSAL_ID);
+			patientIdentifierType.setDescription("Unique identifier to be used across applications");
 			patientService.savePatientIdentifierType(patientIdentifierType);
 		}
 		
-		if (patientClinicNumber == null) {
+		/*if (patientClinicNumber == null) {
 			PatientIdentifierType patientIdentifierType = new PatientIdentifierType();
 			patientIdentifierType.setName("Patient Clinic Number");
 			patientIdentifierType.setUuid(HarmonizedMetadataConstants._PatientIdentifierType.PATIENT_CLINIC_NUMBER);
@@ -104,7 +108,7 @@ public class KenyaEMRAfyaehmsIntergrationActivator extends BaseModuleActivator {
 			patientIdentifierType.setDescription("Assigned to every HIV patient");
 			patientIdentifierType.setUuid(HarmonizedMetadataConstants._PatientIdentifierType.CWC_NUMBER);
 			patientService.savePatientIdentifierType(patientIdentifierType);
-		}
+		}*/
 	}
 	
 	private void getPersonAttributesMetadata() {

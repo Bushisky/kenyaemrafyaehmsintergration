@@ -33,6 +33,8 @@ public class HarmonizedMetadataConstants {
 		public static final String CWC_NUMBER = "1dc8b419-35f2-4316-8d68-135f0689859b";
 		
 		public static final String HIV_UNIQUE_PATIENT_NUMBER = "05ee9cf4-7242-4a17-b4d4-00f707265c8a";
+		
+		public static final String UNIVERSAL_ID = "b10680d6-4f1f-11ea-8066-379ab28ece72";
 	}
 	
 	public static final class _PersonAttributeType {
